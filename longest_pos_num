@@ -1,0 +1,19 @@
+#include<iostream>
+bits/stdc++.h>
+using namespace std;
+int main(){
+vecotr<int>a;
+int ml=0,cl=0;
+int n=a.size();
+for(int i=0;i<n;i++){
+if(a[i]>0){
+cl++;}
+else{
+if(cl>ml){
+ml=cl;}
+cl=0;
+}
+if(ml>cl)
+mx=cl;
+
+return ml;
