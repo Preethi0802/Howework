@@ -1,0 +1,10 @@
+node# reverse(Node *root){
+if(!root)return null;
+if(!root->next){
+  head=root;
+  return head;
+  }
+node * temp=reverse(root->next);
+temmp->next=root;
+root->next=null'
+return root;}
